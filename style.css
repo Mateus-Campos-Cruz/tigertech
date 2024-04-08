@@ -1,0 +1,213 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* INICIO HEADER*/
+
+.header{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #000080;
+    background-image: url(/wall5.jpg);
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.menu{
+    width: auto;
+    height: auto;   
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.logo{   
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    
+    
+}
+
+.list0{
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 50px 2px #87ceeb;
+    font-weight: bold;
+    background: linear-gradient(45deg, #120921, #87ceeb);
+    
+    
+
+}
+
+
+
+li{
+    list-style: none;
+}
+
+li span a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;    
+    
+}
+
+
+a:hover{
+    color: #87ceeb;
+}
+
+.mid-container{
+    width: auto;
+    height: auto;
+    padding: 40px;
+    font-size: 28px;
+    
+}
+
+.title1{
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 30px 0 0 30px   ;
+    
+}
+
+.title2{
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 0 0 0 30px;
+    
+}
+
+.barraBusca{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+
+.barraBusca input{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px ;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* FIM HEADER*/
+
+
+/* INICIO CONTENT*/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff ;
+}
+
+.card{
+    /*flex-grow: 1;*/
+    width: auto;
+    margin: 0 20px 0 20px;
+    padding: 15px;     
+    background-color: #120921 ;
+    color: #fff;   
+    border-radius: 30px;
+    
+}
+
+.botaoCard{
+    background-color:rgb(216, 216, 216)  ;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.botaoA{
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal central */
+    align-items: center;
+}
+
+.botaoCard a{
+    color: black;
+    text-align: center;
+    
+}
+
+.botaoCard:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid #fff;
+}
+
+.titlecard{
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 350px;
+    height: 300px;
+    margin: 30px 0 30px 0 ;
+}
+
+/* FIM CONTENT*/
+
+
+/* INICIO FOOTER*/
+
+.rodape{
+    text-align: center;
+}
+
+/* FIM FOOTER*/
