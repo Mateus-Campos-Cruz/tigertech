@@ -11,6 +11,14 @@ body{
     padding: 0;
 }
 
+.main-container2{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #120921;
+    color: #fff;
+}
+
 /* INICIO HEADER*/
 
 .header{
@@ -19,6 +27,17 @@ body{
     padding: 10px;
     background-color: #000080;
     background-image: url(/wall5.jpg);
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header2{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #000080;
+    background-image: url(img/spotwall.jpg);
     background-position: center 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +114,56 @@ a:hover{
     font-size: 28px;
     
 }
+
+.mid-container2{
+    width: auto;
+    height: auto;
+    padding: 40px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Adicionando flex-direction: column */
+}
+
+.contact-title{
+    display: grid;
+    text-align: center
+}
+
+.form{
+    width: 100%;
+    text-align: center
+}
+
+ input{
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    width: 60%;
+    padding: 10px;
+    resize: none;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.submit{
+    width: 30%; 
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000080;
+    background-color: #87ceeb;
+    margin: auto;
+}
+
 
 .title1{
     color: #fff;
