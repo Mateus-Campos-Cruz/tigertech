@@ -25,7 +25,7 @@ body{
     width: auto;
     height: auto;
     padding: 10px;
-    background-color: #000080;
+    background-color: #120921;
     background-image: url(/wall5.jpg);
     background-position: center 60%;
     background-repeat: no-repeat;
@@ -144,6 +144,10 @@ a:hover{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+input:hover{
+    border: 4px solid rgb(106, 106, 204);
+}
+
 textarea{
     width: 60%;
     padding: 10px;
@@ -151,6 +155,11 @@ textarea{
     margin: 0 0 20px 0;
     border-radius: 10px;
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+textarea:hover{
+    border: 4px solid rgb(106, 106, 204);
     
 }
 
@@ -199,13 +208,33 @@ textarea{
 }
 
 .barraBusca input{
+    display: flex;
     width: 50%;
     height: 50px;
-    border-radius: 50px ;
+    border-radius: 30px 0 0 30px ;
     padding: 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-pesquisar button{
+    background-color: #000080;
+    color: #fff;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 0 30px 30px 0;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #000080;
+}
+
+.botao-pesquisar button:hover{
+    background-color: #fff;
+    color: #120921;
+    
 }
 
 /* FIM HEADER*/
@@ -274,6 +303,23 @@ textarea{
     width: 350px;
     height: 300px;
     margin: 30px 0 30px 0 ;
+}
+
+.content-card{
+    color: black;
+    background-color: #120921;
+}
+
+.card-1{
+    padding: 30px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.card-1 h2{
+    font-size: 24px;
 }
 
 /* FIM CONTENT*/
