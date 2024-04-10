@@ -164,6 +164,12 @@ textarea{
     margin: auto;
 }
 
+.submit:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
 
 .title1{
     color: #fff;
